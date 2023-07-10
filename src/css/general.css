@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Simpsons';
+    src: url('../assets/fonts/Simpsonfont.ttf');
+}
+:root {
+    
+    font-family: 'Simpsons', sans-serif;
+}
+
+body{
+    background-color: #D94C1A;
+}
+
+header {
+    background-color: #F2BE24;
+    text-align: center;
+}

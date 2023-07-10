@@ -1,7 +1,6 @@
+import Api4 from './components/Api4'
+import Header from './components/Header'
 
-import './App.css'
-// import SimpsonsComponent from './components/SimpsonsComponent'
-import Api from './components/Api'
 
 
 function App() {
@@ -9,8 +8,8 @@ function App() {
 
   return (
     <>
-    <Api/>
-      {/* <SimpsonsComponent/> */}
+    <Header/>
+    <Api4/> 
     </>
   )
 }
