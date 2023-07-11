@@ -88,6 +88,7 @@ const Api4 = () => {
                     <p className="text-popup">Estado: {selectPersonaje.Estado}</p>
                 </div>
                 <p className="text-popup">Ocupación: {selectPersonaje.Ocupacion}</p>
+                <p>Historia:</p>
                 <p className="text-popup">{selectPersonaje.Historia}</p>
                 </div>
                 <button onClick={() => setShowPopup(false)}>Close</button>

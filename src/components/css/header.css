@@ -10,3 +10,11 @@ h1 {
     text-align: center;
     margin-block-start: 0em;
 }
+
+.img-header {
+    line-height: 2.5;
+    background: none;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}

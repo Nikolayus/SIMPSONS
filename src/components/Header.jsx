@@ -1,4 +1,5 @@
 import './css/header.css'
+import logoImage from '../images/rosquilla0003.png'
 
 import { useState } from 'react';
 
@@ -7,7 +8,11 @@ function Header() {
 
     return (
         <header>
-        <h1>{title}</h1>
+            
+            <h1><img className='img-header' 
+            src={logoImage} 
+            alt="rosquilla de los simson" />
+            {title}</h1>
         </header>
     );
 }
